@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Linking BoxIcon for Icon -->
+    <link
+      href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header><i class="bx bx-left-arrow-alt"></i>Weather App</header>
+      <div class="input-part">
+        <p class="info-txt"></p>
+        <div class="content">
+          <input
+            type="text"
+            spellcheck="false"
+            placeholder="Enter City"
+            required
+          />
+          <div class="separator"></div>
+          <button>Get Device Location</button>
+        </div>
+      </div>
+      <div class="weather-part">
+        <img src="" alt="Weather Icon" />
+        <div class="temp">
+          <span class="numb">_</span>
+          <span class="deg">°</span>C
+        </div>
+        <div class="weather">_ _</div>
+
+        <div class="day" style="margin: 0 0 10px 0; font-size: 20px">_</div>
+        <div class="date">_ : _ : _</div>
+        <div class="bottom-details">
+          <div class="column location">
+            <i class="bx bx-map"></i>
+            <div class="details">
+              <span>_, _</span>
+            </div>
+          </div>
+          <div class="column feels">
+            <i class="bx bx-wind"></i>
+            <div class="details">
+              <div class="temp">
+                <span class="numb-2">_</span>
+                m/s
+              </div>
+              <p>Wind Speed</p>
+            </div>
+          </div>
+          <div class="column humidity">
+            <i class="bx bxs-droplet-half"></i>
+            <div class="details">
+              <span>_</span>
+              <p>Humidity</p>
+            </div>
+          </div>
+        </div>
+        <div class="weather-forecast bottom-details">
+          <div class="weather-forecast-item" style="margin: 0 0 0 35px">
+            <div><span class="day1">_</span></div>
+            <img src="" alt="Weather Icon" class="img1" />
+            <span class="min-1">_</span><span class="deg">°</span>C
+          </div>
+          <div class="weather-forecast-item">
+            <div><span class="day2">_</span></div>
+            <img src="" alt="Weather Icon" class="img2" />
+            <span class="min-2">_</span><span class="deg">°</span>C
+          </div>
+          <div class="weather-forecast-item">
+            <div><span class="day3">_</span></div>
+            <img src="" alt="Weather Icon" class="img3" />
+            <span class="min-3">_</span><span class="deg">°</span>C
+          </div>
+          <div class="weather-forecast-item">
+            <div><span class="day4">_</span></div>
+            <img src="" alt="Weather Icon" class="img4" />
+            <span class="min-4">_</span><span class="deg">°</span>C
+          </div>
+          <div class="weather-forecast-item">
+            <div><span class="day5">_</span></div>
+            <img src="" alt="Weather Icon" class="img5" />
+            <span class="min-5">_</span><span class="deg">°</span>C
+          </div>
+          <div class="weather-forecast-item">
+            <div><span class="day6">_</span></div>
+            <img src="" alt="Weather Icon" class="img6" />
+            <span class="min-6">_</span><span class="deg">°</span>C
+          </div>
+          <div class="weather-forecast-item" style="margin: 0 35px 0 0">
+            <div><span class="day7">_</span></div>
+            <img src="" alt="Weather Icon" class="img7" />
+            <span class="min-7">_</span><span class="deg">°</span>C
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
